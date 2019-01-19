@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Laila Chavez</title>
+
+<link href="app.css" type="text/css"
+          rel="stylesheet">
+    
+</head>
+
+<body>
+    <div id="wrapper">
+        <header> 
+            <img src="images/headerimg.jpg" alt="Mount Rainier">
+        </header>
+        <main>
+    <form action="assignment2.php" method="get">
+        <fieldset>
+            <legend>Join the Adventure Club</legend>
+            <label>NAME</label>
+            <input type="text" name="name" required>
+            <label>EMAIL</label>
+            <input type="email" name="email" required>
+            <label>PHONE NUMBER</label>
+            <input type="tel" name="phonenumber" required>
+            <label>STATE OF RESIDENCE</label>
+            <input type="text" name="state">
+            <label>GENDER</label>
+            <ul>
+                <li>
+                    <input  type="radio" name="gender" value="female">Female
+                    
+                </li>
+                <li><input type="radio" name="gender" value="male">Male</li>
+            </ul>
+            
+            <label>FAVORITE ACTIVITIES</label>
+            <ul>
+                <li><input type="checkbox" name="activities[]" value="backpacking">Backpacking</li>
+                <li><input type="checkbox" name="activities[]" value="hiking">Hiking</li>
+                <li><input type="checkbox" name="activities[]" value="climbing">Climbing</li>
+                <li><input type="checkbox" name="activities[]" value="surfing">Surfing</li>
+                <li><input type="checkbox" name="activities[]" value="kayaking">Kayaking</li>
+            </ul>
+            
+            <label>COMMENTS</label>
+            <textarea name="comments" rows="10"> </textarea>
+            
+            <input type="submit" value="Tell us more!">
+        </fieldset>
+    </form>
+        </main>
+        <aside> 
+            <img src="images/asideimg.jpg" alt="tent at night">
+            <p><em>If you love outdoor activities, we’ve got an abundance of spaces and places where you can enjoy them.</em>Washington State offers rainforests and deserts, alpine meadows and wetland estuaries, and where the land is rich with natural beauty, there are ample opportunities for outdoor activities. Climb, hike, bike, boat, canoe, fish, golf and horseback ride here. Head downhill on skis, through the woods on cross-country skis or snowshoes; try water sports such as surfing, windsurfing, water skiing, scuba diving and swimming; rev up with a wheeled adventure (on and off-road, pedal-powered or motor-driven).</p>
+        </aside>
+        <footer>
+            <ul>
+			<li>Copyright 2018 &copy;</li>
+			<li>All Rights Reserved</li>
+			<li><a href="../index.html">Web Design by Laila </a></li>
+            <li><p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F~lchavez%2Fit111%2Fform%2Fform.html">Valid! </a></p></li>
+		</ul>
+        </footer>
+    </div> <!--End of wrapper-->
+</body>
+</html>
